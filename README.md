@@ -1,0 +1,5 @@
+An intrusion detection system (IDS) is designed to monitor network traffic and detect potential threats.
+
+The project goals are as follows: 1. Capture and process network packets in real-time. The system should intercept traffic on the selected network interface, extract the headers and payload of packets, and perform initial classification based on TCP, UDP, and ICMP; 2. Analyze network packets for signs of threats. To achieve this goal, it is necessary to implement a packet verification mechanism based on behavioral characteristics that indicate anomalies and typical signs of suspicious activity, such as port scanning and unusual TCP flags; 3. Provide visualization of the received data. The program should display the main parameters of network packets; 4. Record the analysis results and save the traffic history. To successfully implement these requirements, you will need a technical implementation plan and a structural diagram of the system being developed, which will describe the main mechanisms for intercepting network packets and detecting threats.
+
+Development tools used: Visual Studio, pcap library, and Qt framework.
